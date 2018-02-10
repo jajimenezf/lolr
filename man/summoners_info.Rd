@@ -8,7 +8,7 @@ summoners_info(api_key, summoners_name, region = "LAN",
   data_format = "json")
 }
 \arguments{
-\item{api_key}{API key provided by RIOT games (https://developer.riotgames.com/)}
+\item{api_key}{API key provided by RIOT games (\url{https://developer.riotgames.com/})}
 
 \item{summoners_name}{Summoner's name}
 

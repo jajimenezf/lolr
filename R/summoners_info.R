@@ -30,6 +30,11 @@ summoners_info <-
       filter(region_name == region) %>%
       select(api_name)
     
+    summoners_name <- 
+      summoners_name %>%
+      gsub(pattern = " ", 
+           replacement = "%20")
+    
     summoners_info <-
       try(paste0(
         "https://",
