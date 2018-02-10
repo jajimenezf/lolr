@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1518285878751.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5FC61E93",
+    "lastKnownWriteTime" : 1518288687,
+    "last_content_update" : 1518288687561,
+    "path" : "~/GitHub/lolr/lolr/R/summoners_info.R",
+    "project_path" : "lolr/R/summoners_info.R",
+    "properties" : {
+        "cursorPosition" : "14,18",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

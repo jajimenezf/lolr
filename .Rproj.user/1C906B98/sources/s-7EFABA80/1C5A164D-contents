@@ -1,0 +1,39 @@
+library(devtools)
+library(roxygen2)
+library(jsonlite)
+library(dplyr)
+setwd(
+  file.path(
+    getwd(), 
+    "lolr"
+  ))
+
+document()
+
+lol_api_key <- "RGAPI-e0aacb03-9d10-4746-991d-1ac387e1e5c4"
+summoners_info(api_key = lol_api_key, 
+               summoners_name = "jarekii", 
+               region = "LAN", 
+               data_format = "data.frame")
+
+
+summoners_name <- "singred"
+
+all_regions <-
+  data.frame(
+    api_name = c("ru","kr","br1","oc1","jp1","na1","eun1","euw1","tr1","la1","la2"), 
+    region_name = c("RU","KR","BR","OCE","JP","NA","EUNE","EUW","TR","LAN","LAS"), 
+    stringsAsFactors = F)
+
+save(list = c("all_regions"), 
+     file = "./lolr/data/all_regions.RData")
+
+##Missing regions SEA = SouthEastAsia, PBE=PublicBetaEnvironment, CN=China
+
+
+load("data/all_regions.rda")
+region <- "LAN"
+
+
+setwd("..")
+install("lolr")
