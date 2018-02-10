@@ -1,12 +1,12 @@
 #' Summoner's basic information
 #'
 #' This function allows you to get basic summoner's information.
-#' @param api_key API key provided by RIOT games (https://developer.riotgames.com/)
+#' @param api_key API key provided by RIOT games (\url{https://developer.riotgames.com/})
 #' @param summoners_name Summoner's name
 #' @param region Summoner's region (RU, KR, BR, OCE, JP, NA, EUNE, EUW, TR, LAN, LAS)
 #' @param data_format Data format on which the data will be output, available choices are json and data.frame
 #' @keywords "leagueOfLegends" "API"
-#' @export
+#' @example 
 #' summoners_info(
 #' "you_api_key", 
 #' "Bjergsen", 

@@ -12,9 +12,10 @@ document()
 
 lol_api_key <- "RGAPI-e0aacb03-9d10-4746-991d-1ac387e1e5c4"
 summoners_info(api_key = lol_api_key, 
-               summoners_name = "jarekii", 
-               region = "LAN", 
-               data_format = "data.frame")
+               summoners_name = "Bjergsen", 
+               region = "NA", 
+               data_format = "data.frame") %>%
+  kable(format = "latex")
 
 
 summoners_name <- "singred"
