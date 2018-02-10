@@ -20,6 +20,4 @@ summoners_info(api_key, summoners_name, region = "LAN",
 This function allows you to get basic summoner's information.
 }
 \keyword{"API"}
-\keyword{"league}
-\keyword{legends"}
-\keyword{of}
+\keyword{"leagueOfLegends"}

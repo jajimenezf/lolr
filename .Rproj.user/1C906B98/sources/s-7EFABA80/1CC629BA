@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "803721460",
     "id" : "1CC629BA",
-    "lastKnownWriteTime" : 1518289977,
-    "last_content_update" : 1518289977359,
+    "lastKnownWriteTime" : 1518290367,
+    "last_content_update" : 1518290367923,
     "path" : "~/GitHub/lolr/R/summoners_info.R",
     "project_path" : "R/summoners_info.R",
     "properties" : {
-        "cursorPosition" : "14,14",
+        "cursorPosition" : "7,20",
         "scrollLine" : "0",
         "tempName" : "Untitled3"
     },

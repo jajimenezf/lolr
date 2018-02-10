@@ -5,7 +5,7 @@
 #' @param summoners_name Summoner's name
 #' @param region Summoner's region (RU, KR, BR, OCE, JP, NA, EUNE, EUW, TR, LAN, LAS)
 #' @param data_format Data format on which the data will be output, available choices are json and data.frame
-#' @keywords "league of legends" "API"
+#' @keywords "leagueOfLegends" "API"
 #' @export
 #' summoners_info(
 #' "you_api_key", 
