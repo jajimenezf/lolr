@@ -37,3 +37,5 @@ region <- "LAN"
 
 setwd("..")
 install("lolr")
+
+install_github("jajimenezf/lolr")
