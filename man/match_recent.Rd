@@ -2,7 +2,7 @@
 % Please edit documentation in R/match_recent.R
 \name{match_recent}
 \alias{match_recent}
-\title{Summoner's basic information}
+\title{Summoner's recent match information}
 \usage{
 match_recent(api_key, account_id, region = "NA")
 }
