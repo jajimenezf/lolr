@@ -28,14 +28,14 @@ masteries_data <-
     require(jsonlite)
     require(dplyr)
     require(devtools)
-    
+
     # load("data/all_regions.rda")
-    
-    api_region <- 'la1'
-    # all_regions %>%
-    # filter(region_name == region) %>%
-    # select(api_name)
-    
+
+    api_region <-
+      all_regions %>%
+      filter(region_name == region) %>%
+      select(api_name)
+
     if(is.null(version)){
       masteries_req <-
         paste0(
@@ -75,7 +75,7 @@ masteries_data <-
         masteries_req %>%
           fromJSON(.),
         silent = T)
-    
+
     if(inherits(masteries_data,
                 "try-error")) {
       return(paste0(

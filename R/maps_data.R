@@ -22,14 +22,14 @@ maps_data <-
     require(jsonlite)
     require(dplyr)
     require(devtools)
-    
+
     # load("data/all_regions.rda")
-    
-    api_region <- 'la1'
-    # all_regions %>%
-    # filter(region_name == region) %>%
-    # select(api_name)
-    
+
+    api_region <-
+      all_regions %>%
+      filter(region_name == region) %>%
+      select(api_name)
+
     if(is.null(version)){
       maps_req <-
         paste0(
@@ -57,7 +57,7 @@ maps_data <-
         maps_req %>%
           fromJSON(.),
         silent = T)
-    
+
     if(inherits(maps_data,
                 "try-error")) {
       return(paste0(

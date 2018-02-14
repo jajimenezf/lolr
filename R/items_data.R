@@ -29,12 +29,12 @@ items_data <-
     require(dplyr)
     require(devtools)
 
-    # load("data/all_regions.rda")
+    load("data/all_regions.rda")
 
-    api_region <- 'la1'
-    # all_regions %>%
-    # filter(region_name == region) %>%
-    # select(api_name)
+    api_region <-
+      all_regions %>%
+      filter(region_name == region) %>%
+      select(api_name)
 
     if(is.null(version)){
       items_req <-
